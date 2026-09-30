@@ -1,1 +1,0 @@
-create table student(sno number(10),name varchar(20),class varchar(20),address varchar(20));
