@@ -1,14 +1,14 @@
-CREATE TABLE students (
+CREATE TABLE students0 (
     sid NUMBER,
     sname VARCHAR2(30)
 );
 
-INSERT INTO students VALUES (101, 'Riya');
-INSERT INTO students VALUES (102, 'Priya');
+INSERT INTO students0 VALUES (101, 'Riya');
+INSERT INTO students0 VALUES (102, 'Priya');
 
-DELETE FROM students
+DELETE FROM students0
 WHERE sid = 102;
 
 ROLLBACK;
 
-SELECT * FROM students;
+SELECT * FROM students0;
